@@ -18,7 +18,7 @@ public class UserService {
 	@Autowired
 	private UserDao userDao;
 	
-	@Cacheable(value="getUser")
+//	@Cacheable(value="getUser")
 	public List<Map<String,Object>> getUser(User user){
 		System.out.println("第二次不走");
 		List<Map<String,Object>> list= userDao.selectUser(user);
