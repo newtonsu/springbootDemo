@@ -33,7 +33,9 @@ public class UserController {
 	
 	@RequestMapping("hello")
 	public String helloWorld(){
-		
+
+		System.out.println("i am iraoman");
+		System.out.println("git commit -amend");
 		return "hello World";
 	}
 	

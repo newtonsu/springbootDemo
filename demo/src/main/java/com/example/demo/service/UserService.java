@@ -20,7 +20,8 @@ public class UserService {
 	
 //	@Cacheable(value="getUser")
 	public List<Map<String,Object>> getUser(User user){
-		System.out.println("第二次不走");
+//		System.out.println("第二次不走");
+		System.out.println("------>第二次不走<------");
 		List<Map<String,Object>> list= userDao.selectUser(user);
 		return list;
 	}
