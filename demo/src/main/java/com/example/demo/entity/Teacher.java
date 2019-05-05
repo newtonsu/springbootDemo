@@ -1,9 +1,11 @@
 package com.example.demo.entity;
 
-public class Student {
+public class Teacher {
     private String name;
 
     private Integer age;
+
+    private String sex;
 
     public String getName() {
         return name;
@@ -19,5 +21,13 @@ public class Student {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }
